@@ -10,11 +10,15 @@
     <header>
         <!-- 網站導覽列 -->
         <%- include('./layout/navBar'); -%>
+        <ul class="d-none page-link-sm">
+          <li class="bgc-primary-200"><a href="products.html">商品列表</a></li>
+          <li class="bgc-primary-100"><a href="about.html">品牌故事</a></li>
+        </ul>
         <!-- Hero Section -->
-        <section class="index-hero-section">
+        <section class="index-hero-section index-hero-section-md">
           <div>
-            <h1 class="display1 text-neutral-white mb-16">URBNSTEP</h1>
-            <h4 class="h3 text-neutral-white mb-48">Your Step, Your Statement</h4>
+            <h1 class="display1 display2-md text-neutral-white mb-16 mb-md-8">URBNSTEP</h1>
+            <h4 class="h3 h5-md text-neutral-white mb-48 mb-md-32">Your Step, Your Statement</h4>
             <button type="button" class="btn btn-primary">立即選購</button>
           </div>
         </section>
@@ -22,62 +26,62 @@
     <!-- Main -->
     <main>
       <!-- New Arrival -->
-      <section class="container py-64">
-        <h2 class="text-align-center mb-32"><span class="d-inline-block display2 text-neutral-900 mb-12">New Arrival</span><br><span class="d-inline-block h2 text-neutral-900">新品上市</span></h2>
-        <ul class="row flex-wrap">
-          <li class="col-6 mb-40">
+      <section class="container py-64 py-md-40">
+        <h2 class="text-align-center mb-32 mb-md-24"><span class="d-inline-block display2 h2-md text-neutral-900 mb-12 mb-md-8">New Arrival</span><br><span class="d-inline-block h2 h4-md text-neutral-900">新品上市</span></h2>
+        <ul class="row row-md flex-wrap">
+          <li class="col-6 col-md-2 mb-40">
             <a href="#">
               <img src="../assets/images/new-1.png" alt="new-1" class="mb-12">
-              <p class="mb-4">Monoverse</p>
-              <p>NT$3,600</p>
+              <p class="h5 h6-md text-neutral-900 mb-4">Monoverse</p>
+              <p class="text-lb-md text-neutral-900">NT$3,600</p>
             </a>
           </li>
-          <li class="col-6 mb-40">
+          <li class="col-6 col-md-2 mb-40">
             <a href="#">
               <img src="../assets/images/new-2.png" alt="new-2" class="mb-12">
-              <p class="mb-4">PLATFORM 404</p>
-              <p>NT$2,600</p>
+              <p class="h5 h6-md text-neutral-900 mb-4">PLATFORM 404</p>
+              <p class="text-lb-md text-neutral-900">NT$2,600</p>
             </a>
           </li>
-          <li class="col-6">
+          <li class="col-6 col-md-2">
             <a href="#">
               <img src="../assets/images/new-3.png" alt="new-3" class="mb-12">
-              <p class="mb-4">URBN Force</p>
-              <p>NT$3,200</p>
+              <p class="h5 h6-md text-neutral-900 mb-4">URBN Force</p>
+              <p class="text-lb-md text-neutral-900">NT$3,200</p>
             </a>
           </li>
-          <li class="col-6">
+          <li class="col-6 col-md-2">
             <a href="#">
               <img src="../assets/images/new-4.png" alt="new-4" class="mb-12">
-              <p class="mb-4">Mode90</p>
-              <p>NT$4,000</p>
+              <p class="h5 h6-md text-neutral-900 mb-4">Mode90</p>
+              <p class="text-lb-md text-neutral-900">NT$4,000</p>
             </a>
           </li>
         </ul>
       </section>
       <!-- Hot Items -->
-      <section class="container py-64">
+      <section class="container py-64 py-md-40">
         <h3 class="h2 text-neutral-900 mb-16">熱銷補貨</h3>
-        <ul class="row">
-          <li class="col-3">
+        <ul class="row flex-md-nowrap overflow-x-md-auto product-md-row">
+          <li class="col-3 product-md-col">
             <a href="#" class="p-relative">              
               <img src="../assets/images/product-3.png" alt="product-3">
               <span class="tag">人氣 No.1</span>
             </a>
           </li>
-            <li class="col-3">
+            <li class="col-3 product-md-col">
             <a href="#" class="p-relative">              
               <img src="../assets/images/product.png" alt="product">
               <span class="tag">人氣 No.1</span>
             </a>
           </li>
-                    <li class="col-3">
+          <li class="col-3 product-md-col">
             <a href="#" class="p-relative">              
               <img src="../assets/images/product-6.png" alt="product-6">
               <span class="tag">人氣 No.1</span>
             </a>
           </li>
-                    <li class="col-3">
+                    <li class="col-3 product-md-col">
             <a href="#" class="p-relative">              
               <img src="../assets/images/product-4.png" alt="product-4">
               <span class="tag">人氣 No.1</span>
@@ -85,15 +89,22 @@
           </li>
       </section>
       <!-- Collaboration Banner -->
-      <section class="py-48 text-align-center">
-        <div class="colab-banner py-100 p-relative">
-          <h2 class="d-flex mb-16 justify-content-center align-items-center gap-24"><span class="display2 text-neutral-white">URBNSTEP</span><span class="h1 text-primary-300">x</span><span class="display2 text-neutral-white">Kevin Chen</span></h2>
-          <h4 class="h2 text-neutral-white mb-32">跨界聯名，限量發售</h4>
-          <p class="text-p-lg text-neutral-500 mb-48">新銳漫畫家 Kevin Chen 親自操刀設計，街頭能量全面引爆！</p>
+      <section class="py-48 py-md-24 text-align-center">
+        <div class="colab-banner colab-banner-md p-relative">
+          <h2 class="d-flex flex-dir-md-col mb-16 justify-content-center align-items-center gap-24 gap-md-8">
+            <span class="display2 h2-md text-neutral-white">URBNSTEP</span>
+            <span class="h1 h3-md text-primary-300">x</span>
+            <span class="display2 h2-md text-neutral-white">Kevin Chen</span>
+          </h2>
+          <h4 class="h2 h5-md text-neutral-white mb-32 mb-md-24">跨界聯名，限量發售</h4>
+          <p class="text-p-lg text-neutral-500 d-md-flex flex-dir-col mb-48 mb-md-32">
+            <span class="mb-md-4 text-p-md-md">新銳漫畫家 Kevin Chen 親自操刀設計</span>
+            <span class="d-md-none">，</span>
+            <span class="text-p-md-md">街頭能量全面引爆！</span></p>
           <button type="button" class="btn btn-primary">立即搶購</button>
-          <img src="../assets/images/star.svg" alt="star" class="star">
-          <img src="../assets/images/sparkle.svg" alt="sparkle" class="sparkle">
-          <ol class="indicators">
+          <img src="../assets/images/star.svg" alt="star star-md" class="star">
+          <img src="../assets/images/sparkle.svg" alt="sparkle sparkle-md d-none" class="sparkle">
+          <ol class="indicators indicators-md">
             <li class="indicator"></li>
             <li class="dot"></li>
             <li class="dot"></li>
@@ -103,51 +114,51 @@
         </div>
       </section>
       <!-- Product Category -->
-      <section class="container py-64">
-        <h3 class="h2 text-neutral-900 mb-16">依系列選購</h3>
-        <ul class="row">
-          <li class="col-3">
+      <section class="container py-64 py-md-40">
+        <h3 class="h2 h4-md text-neutral-900 mb-16">依系列選購</h3>
+        <ul class="row row-md flex-md-wrap">
+          <li class="col-3 col-md-2 mb-md-12">
             <a href="#"  class="p-relative">
               <img src="../assets/images/product-6.png" alt="prduct-6">
               <div class="category-name">
-                <h4 class="h3 text-neutral-white mb-8">URBN RUNNER</h4>
-                <h5 class="h4 text-neutral-white">慢跑系列</h5>
+                <h4 class="h3 h6-md text-neutral-white mb-8">URBN RUNNER</h4>
+                <h5 class="h4 h6-md text-neutral-white">慢跑系列</h5>
               </div>
             </a>
           </li>
-          <li class="col-3">
+          <li class="col-3 col-md-2 mb-md-12">
             <a href="#"  class="p-relative">
               <img src="../assets/images/product.png" alt="prduct">
               <div class="category-name">
-                <h4 class="h3 text-neutral-white mb-8">STREETMODE</h4>
-                <h5 class="h4 text-neutral-white">滑板系列</h5>
+                <h4 class="h3 h6-md text-neutral-white mb-8">STREETMODE</h4>
+                <h5 class="h4 h6-md text-neutral-white">滑板系列</h5>
               </div>
             </a>
           </li>
-          <li class="col-3">
+          <li class="col-3 col-md-2">
             <a href="#"  class="p-relative">
               <img src="../assets/images/product-4.png" alt="prduct-4">
               <div class="category-name">
-                <h4 class="h3 text-neutral-white mb-8">CHUNK DISTRICT</h4>
-                <h5 class="h4 text-neutral-white">厚底系列</h5>
+                <h4 class="h3 h6-md text-neutral-white mb-8">CHUNK DISTRICT</h4>
+                <h5 class="h4 h6-md text-neutral-white">厚底系列</h5>
               </div>
             </a>
           </li>
-          <li class="col-3">
+          <li class="col-3 col-md-2">
             <a href="#"  class="p-relative">
               <img src="../assets/images/product-10.png" alt="prduct-10">
               <div class="category-name">
-                <h4 class="h3 text-neutral-white mb-8">COLLAB ZONE</h4>
-                <h5 class="h4 text-neutral-white">聯名企劃</h5>
+                <h4 class="h3 h6-md text-neutral-white mb-8">COLLAB ZONE</h4>
+                <h5 class="h4 h6-md text-neutral-white">聯名企劃</h5>
               </div>
             </a>
           </li>
         </ul>
       </section>
       <!-- Inspiration -->
-      <section class="container py-64 mb-48">
+      <section class="container py-64 py-md-40 mb-48 mb-md-32">
         <h3 class="h2 text-neutral-900 mb-16">依系列選購</h3>
-        <div class="inspiration-row">
+        <div class="inspiration-row overflow-x-md-auto">
           <div class="inspiration-col-4">
             <div class="inspiration-row">
               <img src="../assets/images/inspiration-1.png" alt="inspiration-1" class="inspiration-col-6 mb-8">
