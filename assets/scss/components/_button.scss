@@ -1,0 +1,22 @@
+/* 元件 Component */
+/* 按鈕 */
+.btn{
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btn-dark{
+    background-color: $neutral-900;
+    color: $neutral-white;
+}
+
+@media (max-width: 767px){
+    .btn-md{
+        padding: 8px 16px;
+    }
+}

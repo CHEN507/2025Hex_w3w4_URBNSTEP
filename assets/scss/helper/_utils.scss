@@ -1,0 +1,371 @@
+/* 網站通用樣式 Utils */
+/* 容器 */
+.container{
+    max-width: 1320px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 0 auto;
+}
+
+/* 文字 */
+/* 文字排列 */
+.text-align-center{
+    text-align: center;
+}
+
+@media (max-width: 767px){
+    .text-align-md-left{
+        text-align: left;
+    }
+}
+
+/* 字體大小 */
+.text-lb-md{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.text-p-sm{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.text-p-md{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+}
+.h3{
+    font-weight: 700px;
+    font-size: 28px;
+    line-height: 1.2;
+}
+.h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+}
+.h5{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+}
+@media (max-width: 767px){
+    .h3-md{
+    font-weight: 700px;
+    font-size: 28px;
+    line-height: 1.2;
+    }
+    .h5-md{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    }
+    .h6-md{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.2;
+    }
+}
+
+/* 文字顏色 */
+.text-primary-400{
+    color: $primary-400;
+}
+.text-neutral-600{
+    color: $neutral-600;
+}
+.text-neutral-900{
+    color: $neutral-900;
+}
+.text-neutral-white{
+    color: $neutral-white;
+}
+
+/* 背景顏色 */
+.bgc-primary-100{
+    background-color: $primary-100;
+}
+.bgc-primary-200{
+    background-color: $primary-200;
+}
+
+/* 圓角 Radius*/
+.radius-sm{
+    border-radius: 4px;
+}
+
+/* 間隔 */
+/* Margin */
+.mr-a{
+    margin-right: auto;
+}
+.mr-4{
+    margin-right: 4px;
+}
+.mr-8{
+    margin-right: 8px;
+}
+.mr-24{
+    margin-right: 24px;
+}
+.mr-40{
+    margin-right: 40px;
+}
+.mr-48{
+    margin-right: 48px;
+}
+.mb-4{
+    margin-bottom: 4px;
+}
+.mb-12{
+    margin-bottom: 12px;
+}
+.mb-16{
+    margin-bottom: 16px;
+}
+.mb-24{
+    margin-bottom: 24px;
+}
+.mb-48{
+    margin-bottom: 48px;
+}
+
+@media (max-width: 767px){
+    .mb-md-4{
+        margin-bottom: 4px;
+    }
+    .mb-md-8{
+        margin-bottom: 8px;
+    }
+    .mb-md-12{
+        margin-bottom: 12px;
+    }
+    .mb-md-16{
+        margin-bottom: 16px;
+    }
+    .mb-md-24{
+        margin-bottom: 24px;
+    }
+    .mb-md-32{
+        margin-bottom: 32px;
+    }
+    .ml-md-12{
+        margin-left: 12px;
+    }
+}
+
+/* Padding */
+.p-12{
+    padding: 12px;
+}
+.p-32{
+    padding: 32px;
+}
+.pl-8{
+    padding-left: 8px;
+}
+.pl-9{
+    padding-left: 9px;
+}
+.pb-24{
+    padding-bottom: 24px;
+}
+.pb-48{
+    padding-bottom: 48px;
+}
+.pt-32{
+    padding-top: 32px;
+}
+.py-8{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.py-12{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.py-16{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.py-24{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.py-64{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+@media (max-width: 767px){
+    .p-md-24{
+        padding: 24px;
+    }
+    .pb-md-32{
+        padding-bottom: 32px;
+    }
+    .py-md-32{
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}
+
+@media (max-width: 576px){
+    .py-md-12{
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+
+/* Display */
+/* Display 類型 */
+.d-b{
+    display: block;
+}
+.d-flex{
+    display: flex;
+}
+.d-none{
+    display: none;
+}
+/* Flex 相關屬性 */
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-dir-col{
+    flex-direction: column;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
+.gap-48{
+    gap: 48px;
+}
+
+@media (max-width: 576px){
+    .d-sm-none{
+        display: none;
+    }
+    .d-sm-flex{
+        display: flex;
+    }
+    .flex-dir-md-col{
+        flex-direction: column;
+    }
+}
+
+/* 格線系統 */
+.row{
+    display: flex;
+    margin: 0px -12px;
+}
+
+.col-1{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100% / 12);
+}
+.col-2{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100% / 12 * 2);
+}
+.col-3{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100% / 12 * 3);
+}
+.col-4{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100% / 12 * 4);
+}
+.col-5{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100% / 12 * 5);
+}
+.col-6{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100% / 12 * 6);
+}
+.col-7{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100% / 12 * 7);
+}
+.col-8{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100% / 12 * 8);
+}
+.col-9{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100% / 12 * 9);
+}
+.col-10{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100% / 12 * 10);
+}
+.col-11{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: calc(100% / 12 * 11);
+}
+.col-12{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .row-md{
+        display: flex;
+        margin: 0px -8px;
+    }
+
+    .col-md-1{
+        padding-left: 8px;
+        padding-right: 8px;
+        width: calc(100% / 4);
+    }
+    .col-md-2{
+        padding-left: 8px;
+        padding-right: 8px;
+        width: calc(100% / 4 * 2);
+    }
+    .col-md-3{
+        padding-left: 8px;
+        padding-right: 8px;
+        width: calc(100% / 4 * 3);
+    }
+    .col-md-4{
+        padding-left: 8px;
+        padding-right: 8px;
+        width: 100%;
+    }
+}
+
+/* 其他通用樣式 */
+.section-lined{
+    border-bottom: 1px solid $neutral-300;
+}
+
+.link-highlighted{
+    display: block;
+    color: $primary-400;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
