@@ -1,7 +1,7 @@
 /* 個別頁面 Pages */
 /* 品牌故事頁面才會用到的 About Page */
 .brand-story-hero{
-    background-image: url(../assets/images/hero.png);
+    background-image: url(/assets/images/hero.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -12,7 +12,7 @@
 
 @media (max-width: 767px){
     .brand-story-hero-md{
-        background-image: url(../images/hero-sm.png);
+        background-image: url(/assets/images/hero-sm.png);
         padding: 87px 0px;
     }
 
